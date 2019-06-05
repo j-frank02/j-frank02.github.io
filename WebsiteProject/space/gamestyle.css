@@ -1,0 +1,39 @@
+
+canvas {
+  display: block;
+  padding-top:10px;
+}
+.heading{
+  color: whitesmoke;
+  text-align: center;
+  padding-left: 35%;
+  font-size: 30px;
+  align-self: center;
+  font-family: Impact,AppleGothic,Iowan;
+
+}
+.heading:hover{
+  color:lightslategray;
+
+}
+a{
+  text-align: center;
+}
+body{
+  border:black;
+  font-family: AppleGothic,Impact,Iowan;
+  background-color: #c7cfdb;
+  margin:10px;
+  padding:10px;
+}
+header{
+  background-attachment: scroll;
+
+  fill-opacity: 3;
+  background-color:#aeb5c1;
+}
+
+nav{
+  padding:20px;
+  color: lavender;
+}
