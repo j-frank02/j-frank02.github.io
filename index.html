@@ -3,48 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Jayna Frank Website</title>
-    <link href="style.css" rel="stylesheet" type="text/css"></link>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
     <a class="heading" href="index.html">Jayna Frank</a>
-    <nav>
-        <a class ="l" href="page1.html">page 1</a>
-        <a class ="l" href="page2.html">page 2</a>
-        <a class ="l" href="page3.html">page 3</a>
-        <div class="down">
-        <button class = "droplink">Games</button>
-        <div class="drop">
-        <a class ="l" href="space/index.html">Space Invasion</a>
-        <a class ="l" href="avoid/index.html">avoid</a>
-        </div>
-        </div>
-    </nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page1.html">News</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+                <a href="rain/index.html">Rain</a>
+                <a href="bubbles/index.html">bubbles</a>
+                <a href="orbit/index.html">Orbit</a>
 
+            </div>
+        </li>
+        <li class ="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Games</a>
+            <div class="dropdown-content">
+                <a href="space/index.html">Space Invassion</a>
+                <a href="frog/index.html">Frogger kinda</a>
+                <a href="pong/index.html">Pong</a>
+                <a href="avoid/index.html">Avoid</a>
+            </div>
+        </li>
+    </ul>
 
 </header>
-<div class="box">
-    <div class="right" >
 
-        <ul>
-            <li>testing1</li>
-            <li>testing2</li>
-            <li>testing3</li>
 
-        </ul>
-
-    </div>
-    <div class=img">
-    </div>
-    <div class="c">
+    <article class="c">
 
         <p> Home Page</p>
-        <ul>
+        <ul class="l">
             <li><a class ="l" href="page1.html">page 1</a></li>
             <li><a class ="l" href="page2.html">page 2</a></li>
             <li> <a class ="l" href="page3.html">page 3</a></li>
         </ul>
-    </div>
+    </article>
     <div class="d">
         <p>hello</p>
     </div>
