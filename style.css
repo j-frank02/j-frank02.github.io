@@ -1,76 +1,107 @@
 .heading{
     color: whitesmoke;
     text-align: center;
-    text-decoration-style: none;
-    padding: 35%;
+    padding-left: 35%;
     font-size: 30px;
-    align-self: center;    
+    align-self: center;
     font-family: Impact,AppleGothic,Iowan;
 
 }
+.heading:hover{
+    color:lightslategray;
+
+}
+.l:hover{
+    color:purple;
+
+}
 a{
-  text-align: center;
+    text-align: center;
+}
+.drop{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+.down:hover .drop{
+    background-color: #aeb5c1;
+
+}
+.down{
+
+    position: relative;
+    display: inline-block;
+
+
+
+}
+.down:hover .droplink{
+    display: block;
+
 }
 
 .pages{
-height:50%;
-background-color: #dbe6f9;
-padding: 20px;
+    height:50%;
+    background-color: #dbe6f9;
+    padding: 20px;
 
 
 }
 
 .box{
-  //padding:20px;
-  //background-color: #dbe6f9;
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 20% 20%;
-  grid-gap: 10px;
+//background-color: #dbe6f9;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
 
 
 }
 .c{
-  padding:20px;
-  background-color:rgb(222, 237, 255);
-  grid-column:1/4;
-  grid-row:2;
+    padding:20px;
+    background-color: rgb(187, 224, 245);
+    grid-column:1/4;
+    grid-row:2;
 }
 .right{
-  background-color:rgb(222, 237, 255);
-  text-align: left;
-  padding-right:20px;
-  grid-column:4/5;
-  grid-row:2/5;
+    background-color:grey;
+    text-align: left;
+    padding-right:20px;
+    grid-column:4/5;
+    grid-row:1/5;
 
 }
 .d{
-  background-color:rgb(222, 237, 255);
-  grid-row: 3/5;
-  grid-column: 1/4;
+    background-color: rgb(164, 201, 255);
+    grid-row: 3/5;
+    padding:20px;
+    grid-column: 1/4;
 
 
 }
+
+
 body{
     border:black;
     font-family: AppleGothic,Impact,Iowan;
     background-color: #c7cfdb;
-    margin:10px;
-    padding:10px;
+
 }
 header{
     background-attachment: scroll;
-
     fill-opacity: 3;
     background-color:#aeb5c1;
 }
 
 nav{
     padding:20px;
-    color: lavender;
+
 }
 .e{
-    grid-column: 1/5;
+    grid-column: 1/all;
     grid-row:5/6;
     padding: 20px;
     fill-opacity: 3;
