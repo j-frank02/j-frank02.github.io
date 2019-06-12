@@ -36,8 +36,22 @@ article{
 
 }
 .d{
+    font-family:Helvetica;
     background-color: #aeb5c1;
+    padding:20px;
+}
 
+.pics{
+    padding-top:0px;
+    padding-bottom:0px;
+    background-color:#aeb5c1 ;
+}
+.pics:hover{
+    background-color:#aeb5c1 ;
+}
+
+.a{
+    font-family:Helvetica;
 }
 
 footer{
@@ -96,7 +110,7 @@ li.dropdown {
 }
 
 footer{
-    padding:50px;
+    padding:30px;
     background-color: #192839;
 
 }
