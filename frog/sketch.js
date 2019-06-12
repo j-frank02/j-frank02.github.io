@@ -55,6 +55,7 @@ function draw() {
 
     text("GAME OVER", mid - 80, mid - 30)
     textSize(20)
+    text("press space to restart",mid-80,mid+25)    
     text(score, mid, mid)
 
     if (keyIsPressed && keyCode == "32") {
