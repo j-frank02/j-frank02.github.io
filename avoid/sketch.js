@@ -9,7 +9,7 @@ var start = false;
 var enemies = [];
 
 function setup() {
-  createCanvas(windowWidth-50, windowHeight-200);
+  createCanvas(windowWidth-50, windowHeight-210);
  // createCanvas(400,400);
   player = new Player()
   c = new Coin()
